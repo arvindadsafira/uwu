@@ -29,9 +29,9 @@ func hit(kgc float64, sep float64, bed float64, harga *float64, hari *float64) {
 	} else {
 		*hari = hr
 	}
-	hrg = kgc * 6000
-	hrg1 = sep * 5000
-	hrg2 = bed * 10000
+	hrg = kgc * 6986
+	hrg1 = sep * 4565
+	hrg2 = bed * 106546
 	*harga = hrg + hrg1 + hrg2
 }
 
